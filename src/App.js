@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import Button from '@material-ui/core/Button';
 import './styles.css';
 
-var textos=[1,2,3];
+var textos=[0,1,2];
 var i=0;
 
 function Botones(props) {
@@ -32,7 +32,6 @@ function App() {
     }else{
       setearindice(indice=0)  
     }
-    /*setearindice(indice+1)*/
   };
   var clickatras=() => {
     if(indice!=0){
