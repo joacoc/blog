@@ -2,9 +2,18 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import Button from '@material-ui/core/Button';
 import './styles.css';
+import { hexToRgb } from '@material-ui/core';
 
 var textos=[0,1,2];
 var i=0;
+
+function Strength() {
+
+  return(
+      <img src="C:\Users\Santiago\Documents\GitHub\blog\images\old.jpg"></img>
+
+  )
+}
 
 function Botones(props) {
   return(
@@ -47,10 +56,8 @@ function App() {
 </header>
 
 <body>
-    <div className="MainText">
-        <p>
-          {textos[indice]}
-        </p>
+    <div className="MainText" strength>
+      <Strength></Strength>
     </div>
     <Botones hiceclick={clickatras} hiceclickAdelante={clickadelante}></Botones>
 </body>
