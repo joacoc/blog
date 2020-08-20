@@ -72,13 +72,28 @@ function App() {
       setearindice(indice+2)
     }
   };
-  var imagenamostrar=() => {
-    if(indice==0){
-      imagenamostrar=<Strength></Strength>
+  // Codigo de antes:
+  // Si vas a usar esta funcion como componente acordate que empiece con mayuscula ej. Imagenamostrar
+  // var imagenamostrar=() => {
+  // Aca van tres igual '===' 
+  //   if(indice==0){
+  // Aca tenes que retornar el valor. Estas asignando un componente a una funcion. Es por aca el razonamiento igual, solo que en vez de asignarle
+  // el valor a imagenamostrar lo tenes que retornar con return.
+  //     imagenamostrar=<Strength></Strength>
+  //   }else{
+  //     imagenamostrar=<Agility></Agility>
+  //   }
+  // }
+
+  // Codigo ahora:
+  var Imagenamostrar=() => {
+    if(indice===0){
+      return <Strength></Strength>
     }else{
-      imagenamostrar=<Agility></Agility>
+      return <Agility></Agility>;
     }
   }
+
   return (<>
 <header>
     <h1> Falling in the real-time trap </h1>
@@ -87,7 +102,7 @@ function App() {
 
 <body>
     <div className="MainText">
-      <imagenamostrar></imagenamostrar>
+      <Imagenamostrar></Imagenamostrar>
     </div>
     <Botones indice={indice} hiceclick={clickatras} hiceclickAdelante={clickadelante}></Botones>
 </body>
