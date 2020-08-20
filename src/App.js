@@ -19,7 +19,8 @@ function Strength() {
 
 function Intelligence(){
   return(
-      <img src={Winter}></img>
+    <img src={Winter}></img>
+      
   )
 }
 
@@ -89,10 +90,12 @@ function App() {
   var Imagenamostrar=() => {
     if(indice===0){
       return <Strength></Strength>
+    }else if(indice===1){
+      return <Agility></Agility>
     }else{
-      return <Agility></Agility>;
+      return <Intelligence></Intelligence>
     }
-  }
+    }
 
   return (<>
 <header>
