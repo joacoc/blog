@@ -7,9 +7,6 @@ import Axe from './axe.jpg';
 import Winter from './ww.png';
 import Antimage from './am.png';
 
-var textos=[0,1,2];
-var i=0;
-
 function Strength() {
 
   return(
@@ -58,6 +55,7 @@ function Botones(props) {
 }
 
 function App() {
+  const heroes=[<Strength></Strength>,<Intelligence></Intelligence>,<Agility></Agility>];
   var [indice, setearindice]=useState(0);
   var clickadelante=() => {
     if(indice<=1){
@@ -86,17 +84,6 @@ function App() {
   //   }
   // }
 
-  // Codigo ahora:
-  var Imagenamostrar=() => {
-    if(indice===0){
-      return <Strength></Strength>
-    }else if(indice===1){
-      return <Agility></Agility>
-    }else{
-      return <Intelligence></Intelligence>
-    }
-    }
-
   return (<>
 <header>
     <h1> Falling in the real-time trap </h1>
@@ -105,7 +92,7 @@ function App() {
 
 <body>
     <div className="MainText">
-      <Imagenamostrar></Imagenamostrar>
+      {heroes[indice]}
     </div>
     <Botones indice={indice} hiceclick={clickatras} hiceclickAdelante={clickadelante}></Botones>
 </body>
