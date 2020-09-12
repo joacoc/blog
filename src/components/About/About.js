@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Transition from "../Transition";
+import Transition from "../../Transition";
 
 export default function About() {
     const [isOpen, setOpen] = useState(false);
@@ -36,11 +36,8 @@ export default function About() {
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95"
                 >
-                    {/* <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg"> */}
-                    {/* <div className="rounded-md bg-white shadow-xs">Snipped</div> */}
-                    {/* </div> */}
                     <p className="mt-5">
-                    This is a very brief and relaxed resume of me.
+                    <i>A brief and relaxed resume.</i>
                     <br/>I've been working on Telefonica (Telecommunications) and Michelin (Tyres).
                     <br/>They are big co's not fully technological. Anyways I've been always focused on the startup world.
                     <br/>My areas of delight can be almost anything related to technology and ventures.

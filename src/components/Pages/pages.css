@@ -1,0 +1,19 @@
+#page_titles {
+    @apply mb-20
+}
+
+#page_title {
+    @apply text-3xl;
+}
+
+#page_subtitle {
+    @apply text-xl;
+}
+
+#page_content {
+    @apply text-center mb-20;
+}
+
+#page {
+    @apply text-center
+}
