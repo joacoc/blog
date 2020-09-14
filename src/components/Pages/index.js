@@ -1,7 +1,12 @@
 import FallingInTheRealTimeTrap from "./FallingInTheRealTimeTrap";
 import FPLBTheory from "./FPLBTheory";
+import BenjaminFranklinVirtues from "./BenjaminFranklinVirtues";
 
 export const routedPages = [
+    {
+        path: "/benjamin-franklin-virtues",
+        page: BenjaminFranklinVirtues,
+    },
     {
         path: "/falling-in-the-real-time-trap",
         page: FallingInTheRealTimeTrap,
@@ -12,4 +17,7 @@ export const routedPages = [
     }
 ];
 
-export default [FallingInTheRealTimeTrap, FPLBTheory];
+export default [
+    BenjaminFranklinVirtues,
+    FallingInTheRealTimeTrap,
+    FPLBTheory];
