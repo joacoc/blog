@@ -15,7 +15,7 @@ export default function About() {
             <div id="presentationBody" className="text-center mt-10 w-4/5 m-auto">
                 <p>
                     Hey there. This page is intended to let my mind express freely.
-                    <br/>If you want to share me some thoughts feel free to reach my out.
+                    <br/>If you want to share me some thoughts feel free to reach me out.
                 </p>
 
                 <span className="inline-flex rounded-md shadow-sm mt-5">
