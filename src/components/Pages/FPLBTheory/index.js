@@ -6,11 +6,11 @@ export default function FPLBTheory() {
     const content = (
         <>
             <p>
-                A few days ago in the middle of a coworker teaching <br/>
-                when their learners asked what is needed to get into a programming job <br/>
-                a wild "chispa" lighten up in a coworker mind.<br/>
-                And he fastly mentioned me the sillabus "FPLB".<br/>
-                Then he developed it a little more and it stands for this:<br/>
+                A few days ago a coworker (@masterfrijolero) was in the middle of a teaching <br/>
+                and when their learners asked what is needed to get into a programming job <br/>
+                a wild spark lightened upon his mind.<br/>
+                Time after this, he remembers the fact and mentioned his illumination to me as the syllabus "FPLB".<br/>
+                Then he developed it more and it stands for this::<br/>
                 <b>F</b>ramework (React, Flink, Rails..)<br/>
                 <b>P</b>lataform (Mobile, web, consoles..)<br/>
                 <b>L</b>anguage (Java, Python, R..)<br/>

@@ -15,7 +15,7 @@ export default function About() {
             <div id="presentationBody" className="text-center mt-10 w-4/5 m-auto">
                 <p>
                     Hey there. This page is intended to let my mind express freely.
-                    <br/>If you want to share me some thoughts feel free to reach my out.
+                    <br/>If you want to share me some thoughts feel free to reach me out.
                 </p>
 
                 <span className="inline-flex rounded-md shadow-sm mt-5">
@@ -38,14 +38,11 @@ export default function About() {
                 >
                     <p className="mt-5">
                     <i>A brief and relaxed resume.</i>
-                    <br/>I've been working on Telefonica (Telecommunications) and Michelin (Tyres).
-                    <br/>They are big co's not fully technological. Anyways I've been always focused on the startup world.
-                    <br/>My areas of delight can be almost anything related to technology and ventures.
+                    <br/>My areas of delight can be almost anything related to technology.
                     <br/>Data engineering? Of course I like.
                     <br/>Product experience? Let's dig it.
                     <br/>Full stack? Count on me.
                     <br/>Need to write an article? I will try my best.
-                    <br/>Let's run a company? Let's do it.
                     <br/>As you can notice, my experience is broad and not focused on a simple topic in depth.
                     <br/>Anyways in data engineering I stand out a little more.
                 </p>
