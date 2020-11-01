@@ -14,23 +14,26 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 export default App;
 
-function SwitchLabels(props) {
+function Switches(props) {
   const [state, setState] = React.useState({
     checkedA: true,
+    checkedB: true,
   });
-  var estado;
 
   const handleChange = (event) => {
     setState({ ...state, [event.target.name]: event.target.checked });
   };
 
   return (
-    <FormGroup row>
-      <FormControlLabel
-        control={<Switch checked={state.checkedA} onChange={handleChange} name="checkedA" />}
-        label="Secondary"
+    <div>
+      <Switch
+        onClick={props.esen}
+        checked={state.checkedA}
+        onChange={handleChange}
+        name="checkedA"
+        inputProps={{ 'aria-label': 'secondary checkbox' }}
       />
-    </FormGroup>
+    </div>
   )
 }
 
@@ -82,7 +85,7 @@ function Botones(props) {
 }
 
 function App() {
-  var checktitles=0;
+  var [checktitles, seteartitle]=useState(0);
   const titulos=['cayendo','falling'];
   const heroes=[<Strength></Strength>,<Intelligence></Intelligence>,<Agility></Agility>];
   var [indice, setearindice]=useState(0);
@@ -101,11 +104,11 @@ function App() {
     }
   };
 
-  var translate=(props) => {
-    if(SwitchLabels.handle){
-      checktitles=0;
+  var esen=() => {
+    if(checktitles==0){
+      seteartitle(1)
     }else{
-      checktitles=1;
+      seteartitle(0)
     }
   }
   
@@ -125,7 +128,7 @@ function App() {
   return (<>
 <header>
   <div className="titulo">
-    <SwitchLabels onChange={}></SwitchLabels>
+    <Switches></Switches>
     <h1> {titulos[checktitles]} </h1>
   </div>
     <h2> The behind the scenes in the streaming data world. </h2>
