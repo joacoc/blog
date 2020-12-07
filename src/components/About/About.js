@@ -9,7 +9,7 @@ export default function About() {
             <div className="text-center m-2">
                 <img className="inline-block h-20 w-20 rounded-full" src="myself.png" alt=""></img>
                 <h2 className="text-lg">Joaquin Colacci</h2>
-                <div className="text-blue-600">Developer</div>
+                <div className="text-blue-600">Person</div>
                 <div className="text-gray-600">joaquincolacci@gmail.com</div>
             </div>
             <div id="presentationBody" className="text-center mt-10 w-4/5 m-auto">
@@ -46,7 +46,7 @@ export default function About() {
                     <br/>Need to write an article? I will try my best.
                     <br/>My experience is broad and not focused on a simple topic in depth.
                     <br/>Except for data engineering where I stand out a little bit more.
-                    <br/> Want to build a product, company or whatever? Get in touch.
+                    <br/> Want to build a product, company or whatever? What are we waiting for?
                 </p>
                 </Transition>
             </div>
