@@ -2,8 +2,13 @@ import FallingInTheRealTimeTrap from "./FallingInTheRealTimeTrap";
 import FPLBTheory from "./FPLBTheory";
 import BenjaminFranklinVirtues from "./BenjaminFranklinVirtues";
 import SensationTwoThousand from "./SensationTwoThousand";
+import NewLaptop from "./NewLaptop";
 
 export const routedPages = [
+    {
+        path: "/new-laptop",
+        page: NewLaptop,
+    },
     {
         path: "/sensation-two-thousand",
         page: SensationTwoThousand,

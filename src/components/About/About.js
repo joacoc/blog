@@ -39,12 +39,14 @@ export default function About() {
                     <p className="mt-5">
                     <i>A brief and relaxed resume.</i>
                     <br/>My areas of delight can be almost anything related to technology.
-                    <br/>Data engineering? Of course I like.
+                    <br/>Data engineering? Of course, I like it.
                     <br/>Product experience? Let's dig it.
                     <br/>Full stack? Count on me.
+                    <br/>DevOps? I will roll those pipes.
                     <br/>Need to write an article? I will try my best.
-                    <br/>As you can notice, my experience is broad and not focused on a simple topic in depth.
-                    <br/>Anyways in data engineering I stand out a little more.
+                    <br/>My experience is broad and not focused on a simple topic in depth.
+                    <br/>Except for data engineering where I stand out a little bit more.
+                    <br/> Want to build a product, company or whatever? Get in touch.
                 </p>
                 </Transition>
             </div>
