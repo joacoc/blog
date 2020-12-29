@@ -19,7 +19,7 @@ export default function NYSubway() {
                 In software happens the same. <br/>
                 If your product is broken, looks bad and doesn't work as intended. <br/>
                 Your customer will probably not report issues as much as if your product were in a good shape. <br/>
-                Don't treat as less to those minor issues. <br/><br/>
+                Don't treat as less those minor issues. <br/><br/>
                 <i>They treat you in the same way that you introduce yourself. If you look bad, you will be mistreated; if you look good, you will be hired. - Mirtha Legrand</i>
                 <br/><br/>
                 Thanks Fede B. for lighting this.
