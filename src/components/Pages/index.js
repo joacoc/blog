@@ -3,8 +3,13 @@ import FPLBTheory from "./FPLBTheory";
 import BenjaminFranklinVirtues from "./BenjaminFranklinVirtues";
 import SensationTwoThousand from "./SensationTwoThousand";
 import NewLaptop from "./NewLaptop";
+import NYSubway from "./NYSubway"
 
 export const routedPages = [
+    {
+        path: "/ny-subway",
+        page: NYSubway,
+    }
     {
         path: "/new-laptop",
         page: NewLaptop,
