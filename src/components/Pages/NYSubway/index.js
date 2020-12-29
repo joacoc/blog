@@ -7,8 +7,8 @@ export default function NYSubway() {
         <>
             <p>
                 <b>The cleaner your product is the more your customer will maintain it like that.</b><br/><br/>
-                
-                <img className="m-auto filter-grayscale max-h-80" src="nysubway.png" alt="nysubway"/> <br/><br/>
+
+                <img className="m-auto" style={{ filter: "grayscale(100%)", maxHeight: "20rem" }} src="nysubway.png" alt="nysubway"/> <br/><br/>
 
                 I would love to remember from which book I read a brief story about the NY's Subway trains that goes something like this:: <br/>
                 <i>
