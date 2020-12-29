@@ -19,7 +19,7 @@ export default function NYSubway() {
                 Don't treat as less to those minor issues. <br/><br/>
                 <i>They treat you in the same way that you introduce yourself. If you look bad, you will be mistreated; if you look good, you will be hired. - Mirtha Legrand</i>
                 <br/><br/>
-                Thanks @masterfrijolero for the inspiration on this one.
+                Thanks Fede B. for lighting this.
             </p>
         </>
     )
