@@ -9,7 +9,7 @@ export const routedPages = [
     {
         path: "/ny-subway",
         page: NYSubway,
-    }
+    },
     {
         path: "/new-laptop",
         page: NewLaptop,
