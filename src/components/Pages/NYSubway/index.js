@@ -6,11 +6,11 @@ export default function NYSubway() {
     const content = (
         <>
             <p>
-                <b>The cleaner the more your customer will maintain it like that.</b><br/><br/>
-                <img className="m-auto" src="nysubway.png" alt="nysubway"/>
+                <b>The cleaner your product is the more your customer will maintain it like that.</b><br/><br/>
+                <img className="m-auto filter-grayscale max-h-80" src="nysubway.png" alt="nysubway"/> <br/><br/>
 
                 I would love to remember from which book I read the next statement: <br/>
-                There was a time where the New York subway train was having struggle to maintain their trains clean and good looking.<br/>
+                There was a time (near 1980) where New York was having struggle to maintain their subway trains clean and good looking.<br/>
                 They noticed that when the train is clean and maintained people treat it with more care. Making it easier to maintain.<br/>
                 And if the train were dirty and broken, people will treat it with less care. <br/>
                 In software happens the same. <br/>
