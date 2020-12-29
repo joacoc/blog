@@ -10,12 +10,12 @@ export default function NYSubway() {
 
                 <img className="m-auto" style={{ filter: "grayscale(100%)", maxHeight: "20rem" }} src="nysubway.png" alt="nysubway"/> <br/><br/>
 
-                I would love to remember from which book I read a brief story about the NY's Subway trains that goes something like this:: <br/>
-                <i>
+                I would love to remember from which book I read a brief story about the NY's Subway trains that goes something like this: <br/><br/>
+                <i className="font-light">
                 There was a time (near 1980) where New York was having struggle to maintain their subway trains clean and good looking.<br/>
                 They noticed that when the train is clean and maintained people treat it with more care. Making it easier to maintain.<br/>
-                And if the train were dirty and broken, people will treat it with less care. <br/>
-                </i>
+                And if the train were dirty and broken, people will treat it with less care.
+                </i><br/><br/>
                 In software happens the same. <br/>
                 If your product is broken, looks bad and doesn't work as intended. <br/>
                 Your customer will probably not report issues as much as if your product were in a good shape. <br/>
