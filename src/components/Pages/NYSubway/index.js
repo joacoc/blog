@@ -12,7 +12,7 @@ export default function NYSubway() {
 
                 I would love to remember from which book I read a brief story about the NY's Subway trains that goes something like this: <br/><br/>
                 <i className="font-light">
-                There was a time (near 1980) where the New York City Subway was having struggle time to maintain their trains clean and good looking.<br/>
+                There was a time (near 1980) where the New York City Subway was struggling to maintain their trains clean and good looking.<br/>
                 After a time they noticed that when the train is clean and in good shape people would treat it with more care. Making it easier to maintain.<br/>
                 And if the train was dirty and broken, people will treat it with less care.
                 </i><br/><br/>
