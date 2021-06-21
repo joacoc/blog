@@ -5,7 +5,7 @@ export default App;
 function App() {
   return (<>
     <body>
-      <h1 style={{ color: "white" }}>
+      <h1 style={{ color: "green" }}>
         CENTRO DE INTELIGENCIA DE AXIE PEPOSO
       </h1>
       <div style={{ display: "flex", flex: "row" }}>
