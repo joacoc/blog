@@ -8,8 +8,8 @@ function App() {
       <h1 style={{ color: "green" }}>
         CENTRO DE INTELIGENCIA DE AXIE PEPOSO
       </h1>
-      <div style={{ display: "flex", flex: "row" }}>
-        <div style={{ borderRadius: 20, textAlign: "center", color: "turquoise", marginLeft: "10rem" }}>
+      <div style={{ display: "flex", flex: "row", marginLeft: "5%", marginRight: "5%" }}>
+        <div style={{ borderRadius: 20, textAlign: "center", color: "turquoise" }}>
           <h3>Precio: Small love potion</h3>
           <iframe
             src="https://streaminy.io/share/511301c7-7875-43dc-a90a-e2dda065e2c9"
@@ -24,7 +24,7 @@ function App() {
           />
         </div>
 
-        <div style={{ borderRadius: 20, textAlign: "center", color: "turquoise", marginLeft: "10rem" }}>
+        <div style={{ borderRadius: 20, textAlign: "center", color: "blue", marginLeft: "3rem" }}>
           <h3>Precio: Axie Infinity</h3>
           <iframe
             src="https://streaminy.io/share/050d6fa5-fb32-46c8-aa09-02c32d058da9"
